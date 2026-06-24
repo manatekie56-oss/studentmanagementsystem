@@ -62,19 +62,19 @@ public class School {
         return false;
     }
 
-    public boolean deleteStudent(int id) {
+  public boolean deleteStudent(int id) {
 
-        Student student = searchStudent(id);
+    Student student = searchStudent(id);
 
-        if (student != null) {
+    if (student != null) {
 
-            students.remove(student);
+        students.remove(student);
 
-            return true;
-        }
-
-        return false;
+        return true;
     }
+
+    return false;
+}
 
     public ArrayList<Student> getStudents() {
         return students;

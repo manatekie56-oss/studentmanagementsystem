@@ -70,6 +70,10 @@ Student Management System is a Java-based console application developed using Ob
 
 ---
 
-## 👨‍💻 Authors
 
+**👤 Author
+Mileal Birhanu
+GitHub: @milealbirhanu (https://github.com/milealbirhanu)
+Mana Tekie
+GitHub: https://github.com/manatekie56-oss**
 

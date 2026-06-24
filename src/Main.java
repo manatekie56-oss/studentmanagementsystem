@@ -109,11 +109,20 @@ public class Main {
                     break;
 
                 case 5:
+
                     System.out.print("Enter Student ID to Delete: ");
                     int deleteId = input.nextInt();
                     input.nextLine();
 
-                    System.out.println("🗑️ Delete student feature triggered.");
+                    if (school.deleteStudent(deleteId)) {
+
+                        System.out.println(" Student Deleted Successfully!");
+
+                    } else {
+
+                        System.out.println(" Student Not Found!");
+                    }
+
                     break;
 
                 case 6:
